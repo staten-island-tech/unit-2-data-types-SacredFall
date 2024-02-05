@@ -12,13 +12,13 @@ def subtotal1():
     subtotal = input("> $")
     if isfloat(subtotal):
         subtotal = float(subtotal)
-        tiporgay()
+        tipplease()
     
     else:
         print('Restart please, remember do not be an idiot and put a number this time!')
     subtotal1()
 
-def tiporgay():
+def tipplease():
 
     print('How was our service?')
     print('Please respond with bad, okay, good, or great')
@@ -33,7 +33,7 @@ def tiporgay():
         print(f'We reccommend a tip of ${subtotal*float(0.25)}')
     else:
         print('incorrect input, please try again')
-        tiporgay()
+        tipplease()
 
 
 print('What is your name?')
