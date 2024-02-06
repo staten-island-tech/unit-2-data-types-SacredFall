@@ -13,10 +13,9 @@ def subtotal1():
     if isfloat(subtotal):
         subtotal = float(subtotal)
         tipplease()
-    
     else:
         print('Restart please, remember do not be an idiot and put a number this time!')
-    subtotal1()
+        subtotal1()
 
 def tipplease():
 
