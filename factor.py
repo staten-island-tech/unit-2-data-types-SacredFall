@@ -7,6 +7,7 @@ def factorlization():
             print(i)
 
 factorlization()
+
     
 
 
